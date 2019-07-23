@@ -210,3 +210,9 @@ runners.map((person) => {
 console.log(nameBibs);
 // Problem 3
 // The organization neds to see how many people from Skinix are attending the race.
+let Skinix = []
+Skinix = runners.filter((person) => {
+    return person.company_name === "Skinix"
+});
+console.log(Skinix)
+console.log(Skinix.length)
